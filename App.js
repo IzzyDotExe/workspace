@@ -33,7 +33,7 @@ function Board({ xIsNext, squares, onPlay }) {
 
   return (
     <>
-      <Sushi type="nigiri" name="Salmon Roll" className="sushi"/>
+      <Sushi type="nigiri" name="Salmon Roll" />
       <div className="status">{status}</div>
       <div className="board-row">
         <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
